@@ -1,12 +1,15 @@
-import Heading from "./components/Heading";
+import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
+import Logo from "./components/Logo";
+
 
 function App() {
-  return (
-    <div className="App">
-      <Heading firstName="Bob" />
-      <Heading firstName="Any name other than Bob" />
-    </div>
-  );
-}
 
+  return (
+    <div className="App">
+      <NavBar  />   
+      <Logo />
+    </div>
+  );
+}
 export default App;
