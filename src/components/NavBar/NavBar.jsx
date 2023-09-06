@@ -1,4 +1,6 @@
 import styles from "./Navbar.module.css";
+import { AiOutlineMenu } from 'react-icons/ai'
+
 
 function NavBar() {
   return (
@@ -18,6 +20,11 @@ function NavBar() {
         <a href="#top" className={styles.navItens} target="_blank">
           Contact
         </a>
+        <div className={styles.menuNav}>
+        <AiOutlineMenu 
+          color="white" 
+          size={'40px'}/>
+        </div>
       </nav>
     </header>
   );

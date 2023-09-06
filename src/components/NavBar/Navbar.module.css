@@ -20,14 +20,13 @@
   align-items: center;
   height: 100%;
   width: 40%;
-  margin-left: 20px;
+  margin-left: 40px;
   font-size: 40px;
   font-weight: 100;
   color: #dce1de;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
   overflow: hidden;
-  
 
 }
 
@@ -59,6 +58,7 @@
   width: 180px;
   height: 45px;
   border-radius: 6px;
+  
 }
 
 .navItens:hover {
@@ -67,52 +67,56 @@
 
 }
 
+.menuNav{
+  display: none;
+  margin: 5px;
+  cursor: pointer;
+
+}
+
+
+
 @media screen and (max-width: 840px){
 
   .navContainer{
+
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 400px;
-  
+    flex-direction: row;
+    height: 80px;
 
   }
   .logo{
-
-   
+  
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
-    width: 100%;
     margin: 0;
-    margin-top: 20px;
     font-size: 40px;
     overflow: hidden;
     transition: 0.8s;
-
-      
+    width: 300px;
   }
 .navSection {
-
+  padding: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  padding: auto;
-  margin: auto;
-  width: 100%;
-  height: 50%;
+  width: 50%;
   transition: 0.8s;
+
   
   }
 
   .navItens {
-
+    
     display: flex;
     margin: 2px;
     transition: 0.8s;
     background-color: #184e77;
+    display: none;
 
   }
   .navItens:hover {
@@ -120,40 +124,40 @@
     background-color: #003055;
   
   }
+  .menuNav{
+    
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+    margin-right: 50px;
+  
+  }
 
 }
 
-@media screen and (max-width: 275px){
+@media screen and (max-width: 433px){
   
   .navContainer {
+ 
+    width: 100%;
 
-    height: 400px;
-  
   }
   .navSection {
-
-    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #003055;
+    
   }
   .logo{
-
-    height: 30%;
-    font-size: 30px;
+    display: none;
     transition: 0.8s;     
-
+    height: 0%;
   }
-  .navItens {
-
-    font-size: 20px;
-    transition: 0.8s;
-    width: 150px;
-    height: 45px;
-    border-radius: 6px;
-
-  }
-  .navItens:hover {
-
-    background-color: #1f5f91;
-  
+  .menuNav{
+    margin: 0;
+    background-color: black;
   }
 
 }
