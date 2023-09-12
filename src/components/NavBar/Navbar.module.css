@@ -69,11 +69,13 @@
 
 .menuNav{
   display: none;
-  margin: 5px;
   cursor: pointer;
 
 }
 
+.logo{
+  text-decoration: none;
+}
 
 
 @media screen and (max-width: 840px){
@@ -98,6 +100,7 @@
     overflow: hidden;
     transition: 0.8s;
     width: 300px;
+    
   }
 .navSection {
   padding: 0;
@@ -105,13 +108,11 @@
   flex-direction: row;
   align-items: center;
   width: 50%;
-  transition: 0.8s;
-
-  
+  transition: 0.8s;  
   }
 
   .navItens {
-    
+
     display: flex;
     margin: 2px;
     transition: 0.8s;
@@ -147,7 +148,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #003055;
+
     
   }
   .logo{
@@ -157,7 +158,7 @@
   }
   .menuNav{
     margin: 0;
-    background-color: black;
+
   }
 
 }

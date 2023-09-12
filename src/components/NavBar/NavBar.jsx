@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { AiOutlineMenu } from 'react-icons/ai'
 
@@ -5,22 +6,15 @@ import { AiOutlineMenu } from 'react-icons/ai'
 function NavBar() {
   return (
     <header className={styles.navContainer}>
-      <h1 className={styles.logo}>Guilherme</h1>
+      <Link to='/' className={styles.logo}> Guilherme </Link>
       <nav className={styles.navSection}>
         <i class="fa-solid fa-bars"></i>
-        <a href="#top" className={styles.navItens}>
-          Home
-        </a>
-        <a href="#top" className={styles.navItens}>
-          About
-        </a>
-        <a href="#top" className={styles.navItens}>
-          Socials
-        </a>
-        <a href="#top" className={styles.navItens} target="_blank">
-          Contact
-        </a>
+        <Link to='/' className={styles.navItens}>Home</Link>
+        <Link to='/about-me' className={styles.navItens}>About Me</Link>
+        <Link to='/' className={styles.navItens}>Socials</Link>
+        <Link to='/' className={styles.navItens}>Contact</Link>
         <div className={styles.menuNav}>
+        
         <AiOutlineMenu 
           color="white" 
           size={'40px'}/>
