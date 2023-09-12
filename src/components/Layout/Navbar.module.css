@@ -4,61 +4,49 @@
 .navContainer {
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 80px;
-  margin: 40px 10px 0px 10px; /*cima esqueda direita baixo*/
+  margin: 40px 10px 0px; /*cima esqueda direita baixo*/
   background-color: rgba(240, 248, 255, 0.116);
   border-radius: 10px;
+  padding: 1em;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
 
 }
 
 .logo{
-
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  height: 100%;
-  width: 40%;
   margin-left: 40px;
   font-size: 40px;
   font-weight: 100;
   color: #dce1de;
-  font-family: "Montserrat", sans-serif;
   cursor: pointer;
-  overflow: hidden;
-
 }
 
 .navSection {
-  
+  list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
   padding-right: 50px;
-  overflow: hidden;
-  height: 100%;
-  border-radius: 10px;
-  font-family: "Montserrat", sans-serif;
   font-weight: 100;
-
+  
 }
 
 .navItens {
-
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 30px;
-  margin: 5px;
+  margin: 0px 5px;
   transition: 0.8s;
-  width: 180px;
+  width: 6em;
   height: 45px;
   border-radius: 6px;
-  
+
 }
 
 .navItens:hover {
@@ -68,6 +56,7 @@
 }
 
 .menuNav{
+
   display: none;
   cursor: pointer;
 
@@ -80,57 +69,20 @@
 
 @media screen and (max-width: 840px){
 
-  .navContainer{
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    height: 80px;
 
-  }
-  .logo{
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    font-size: 40px;
-    overflow: hidden;
-    transition: 0.8s;
-    width: 300px;
-    
-  }
-.navSection {
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 50%;
-  transition: 0.8s;  
-  }
 
   .navItens {
-
-    display: flex;
-    margin: 2px;
     transition: 0.8s;
-    background-color: #184e77;
     display: none;
 
   }
-  .navItens:hover {
 
-    background-color: #003055;
-  
-  }
   .menuNav{
     
     display: flex;
-    margin: 5px;
-    cursor: pointer;
-    margin-right: 50px;
+
+    margin-right: 40px;
   
   }
 
@@ -139,25 +91,16 @@
 @media screen and (max-width: 433px){
   
   .navContainer {
- 
-    width: 100%;
-
-  }
-  .navSection {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    
   }
+
   .logo{
     display: none;
     transition: 0.8s;     
-    height: 0%;
-  }
-  .menuNav{
-    margin: 0;
 
   }
 

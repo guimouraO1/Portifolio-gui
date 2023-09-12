@@ -4,11 +4,12 @@ import AboutMe from "./pages/AboutMe";
 import HomePage from "./pages/HomePage";
 import Socials from "./pages/Socials";
 import Contact from "./pages/Contact";
-
+import NavBar from "./components/Layout/NavBar";
 
 function App() {
   return (
     <div className="App">
+      < NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about-me" element={<AboutMe />} />
