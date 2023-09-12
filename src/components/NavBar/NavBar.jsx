@@ -10,14 +10,13 @@ function NavBar() {
       <nav className={styles.navSection}>
         <i class="fa-solid fa-bars"></i>
         <Link to='/' className={styles.navItens}>Home</Link>
-        <Link to='/about-me' className={styles.navItens}>About Me</Link>
+        <Link to='/about-me' className={styles.navItens}>About</Link>
         <Link to='/' className={styles.navItens}>Socials</Link>
         <Link to='/' className={styles.navItens}>Contact</Link>
         <div className={styles.menuNav}>
-        
-        <AiOutlineMenu 
-          color="white" 
-          size={'40px'}/>
+          <AiOutlineMenu 
+            color="white" 
+            size={'40px'}/>
         </div>
       </nav>
     </header>
