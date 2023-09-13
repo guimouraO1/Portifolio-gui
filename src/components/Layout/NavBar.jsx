@@ -9,9 +9,9 @@ function NavBar() {
       <Link to='/' className={styles.logo}> Guilherme </Link>
       <ul className={styles.navSection}>
         <li><Link to='/' className={styles.navItens}>Home</Link></li>
-        <li><Link to='/about-me' className={styles.navItens}>About</Link></li>
-        <li><Link to='/Socials' className={styles.navItens}>Socials</Link></li>
-        <li><Link to='/Contact' className={styles.navItens}>Contact</Link></li>
+        <li><Link to='/Sobre' className={styles.navItens}>Sobre</Link></li>
+        <li><Link to='/Projetos' className={styles.navItens}>Projetos</Link></li>
+        <li><Link to='/Contato' className={styles.navItens}>Contato</Link></li>
       </ul>
         
         

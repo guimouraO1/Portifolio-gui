@@ -14,7 +14,6 @@ const VideoPlayer = () => {
   } 
 
   return (
-  
     <div className={styles.containerVideo}>
       <div className={styles.inputComponent}> 
         <FiSearch className={styles.search} size={30}/>

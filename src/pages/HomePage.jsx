@@ -12,7 +12,6 @@ function HomePage() {
         
         <div className={styles.Container}>
           <img className={styles.imagem} src={img} alt="Guilherme de Moura"/>
-          
           <div className={styles.textMain}>
             <h1>Desenvolvedor</h1>
             <p>Estou ansioso para saber como posso contribuir para sua equipe!</p>
