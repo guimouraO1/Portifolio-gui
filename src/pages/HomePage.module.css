@@ -1,8 +1,9 @@
 
 
-.imgContainer{
+.Container{
     padding: 2em;
     display: flex;
+    align-items: center;
     margin: 2em;
     background-color: rgba(240, 248, 255, 0.116);
     border-radius: 8px;
@@ -16,13 +17,14 @@
 }
 
 .textMain {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    
+   
     width: 100%;
-    margin-left: 2em;
     color: white;
+    
+}
+.linguagens{
+
+    width: 400px;
     
 }
