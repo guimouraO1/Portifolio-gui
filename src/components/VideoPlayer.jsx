@@ -21,7 +21,7 @@ const VideoPlayer = () => {
         <button onClick={() => setText('url vídeo here')}> Reset </button> 
       </div> 
       <div className={styles.videoPlayer}>
-      <ReactPlayer controls url={url} />  
+      <ReactPlayer volume={0.5} controls url={url} />  
       </div>
       
     </div>
