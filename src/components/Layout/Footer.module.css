@@ -14,17 +14,18 @@
     color: #fff;
     
 }
-
-.icons:nth-child(1){
-    margin-left: 40px;
-    
+.iconsContainer{
+    margin-left: 80px;
 }
-.icons:nth-child(2){
+.icons{
     margin-left: 4px;
+    color: #fff;
 }
+
 .icons:hover{
  
     color: #003055;
     cursor: pointer;
     
 }
+
