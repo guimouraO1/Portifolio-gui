@@ -15,17 +15,17 @@ function HomePage() {
           
           <div className={styles.textMain}>
             <h1>Desenvolvedor</h1>
-            <p></p>
+            <p>Estou ansioso para saber como posso contribuir para sua equipe.</p>
           </div>
           <div className={styles.linguagens}>
             <h1>Tecnologias</h1><br/>
             <div className={styles.linha}></div><br/>
-            < FaPython size={80} color='white'/>
-            < FaReact size={80} color='white' />
-            < IoLogoJavascript size={80} color='white'/>
-            < FaDocker size={80} color='white'/>
-            < BiLogoKubernetes size={80} color='white'/>
-            
+            < FaPython size={60} color='white'/>
+            < FaReact size={60} color='white' />
+            < IoLogoJavascript size={60} color='white'/>
+            < FaDocker size={60} color='white'/>
+            < BiLogoKubernetes size={60} color='white'/>
+
           </div>
         </div>
 

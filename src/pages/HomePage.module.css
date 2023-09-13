@@ -19,7 +19,7 @@
 
 .textMain {
 
-    width: 80%;
+    width: 100%;
     color: white;
     
 }
@@ -51,4 +51,10 @@
     width: 320px;
     border: 1px solid #003055;
 
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
 }
