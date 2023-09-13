@@ -14,16 +14,18 @@ function HomePage() {
           <img className={styles.imagem} src={img} alt="Guilherme de Moura"/>
           
           <div className={styles.textMain}>
-            <h1>Desenvolvedor Junior</h1>
+            <h1>Desenvolvedor</h1>
             <p></p>
           </div>
           <div className={styles.linguagens}>
-
-            < FaPython size={70} color='white'/>
-            < FaReact size={70} color='white' />
-            < IoLogoJavascript size={70} color='white'/>
-            < FaDocker size={70} color='white'/>
-            < BiLogoKubernetes size={70} color='white'/>
+            <h1>Tecnologias</h1><br/>
+            
+            <div className={styles.linha}></div><br/>
+            < FaPython size={80} color='white'/>
+            < FaReact size={80} color='white' />
+            < IoLogoJavascript size={80} color='white'/>
+            < FaDocker size={80} color='white'/>
+            < BiLogoKubernetes size={80} color='white'/>
 
           </div>
         </div>
