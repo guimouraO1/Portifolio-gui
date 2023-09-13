@@ -2,18 +2,22 @@ import React from "react";
 import ReactPlayer from "react-player/youtube";
 import { useState } from 'react';
 import styles from "./VideoPlayer.module.css";
+import { FiSearch } from 'react-icons/fi'
+
 
 const VideoPlayer = () => {
   
-  const [url, setText] = useState('url vídeo here'); 
+  const [url, setText] = useState('https://www.youtube.com/watch?v=MxEtxo_AaZ4&ab_channel=SlayingTheDragon'); 
 
   function handleChange(e) { 
     setText(e.target.value); 
   } 
 
   return (
+  
     <div className={styles.containerVideo}>
       <div className={styles.inputComponent}> 
+        <FiSearch className={styles.search} size={30}/>
         <input className={styles.inputButton} value={url} onChange={handleChange} /> 
         <button onClick={() => setText('url vídeo here')}> Reset </button> 
       </div> 
