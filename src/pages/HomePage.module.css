@@ -14,13 +14,12 @@
 
     width: 300px;
     border-radius: 14px;
-
+    
 }
 
 .textMain {
-    
-   
-    width: 100%;
+
+    width: 80%;
     color: white;
     
 }
@@ -32,9 +31,9 @@
 }
 
 .linguagens{
-
-    width: 400px;
     
+    align-items: center;
+    width: 400px;    
 }
 
 .linguagens h1{
