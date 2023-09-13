@@ -19,11 +19,11 @@ function HomePage() {
           <div className={styles.linguagens}>
             <h1>Tecnologias</h1><br/>
             <div className={styles.linha}></div><br/>
-            < FaPython size={60} color='white'/>
-            < FaReact size={60} color='white' />
-            < IoLogoJavascript size={60} color='white'/>
-            < FaDocker size={60} color='white'/>
-            < BiLogoKubernetes size={60} color='white'/>
+            < FaPython size={60} color=''/>
+            < FaReact size={60} color='#4cc9f0' />
+            < IoLogoJavascript size={60} color='#fcd757'/>
+            < FaDocker size={60} color='#023047'/>
+            < BiLogoKubernetes size={60} color='#0466c8'/>
           </div>
         </div>
   
