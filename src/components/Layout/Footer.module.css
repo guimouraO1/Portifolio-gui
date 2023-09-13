@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     bottom: 0;
     left: 0;
     right: 0;
@@ -12,5 +12,19 @@
     width: 100vw;
     padding-top: 40px;
     color: #fff;
+    
+}
+
+.icons:nth-child(1){
+    margin-left: 40px;
+    
+}
+.icons:nth-child(2){
+    margin-left: 4px;
+}
+.icons:hover{
+ 
+    color: #003055;
+    cursor: pointer;
     
 }

@@ -8,9 +8,9 @@ import { FaGithub } from 'react-icons/fa'
 function Footer() {
   return (
     <div className={styles.footerContainer}>
-
-        < FaLinkedin size={40} />
-        < FaGithub size={40} />
+        
+        < FaLinkedin className={styles.icons} size={40} />
+        < FaGithub className={styles.icons} size={40} />
 
     </div>
   );
