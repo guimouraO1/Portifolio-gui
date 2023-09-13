@@ -7,7 +7,7 @@ import { FiSearch } from 'react-icons/fi'
 
 const VideoPlayer = () => {
   
-  const [url, setText] = useState('https://www.youtube.com/watch?v=MxEtxo_AaZ4&ab_channel=SlayingTheDragon'); 
+  const [url, setText] = useState('https://www.youtube.com/watch?v=3sZqORc8Or8&ab_channel=SwatGames'); 
 
   function handleChange(e) { 
     setText(e.target.value); 
