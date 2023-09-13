@@ -25,10 +25,11 @@ function HomePage() {
             < IoLogoJavascript size={60} color='white'/>
             < FaDocker size={60} color='white'/>
             < BiLogoKubernetes size={60} color='white'/>
-
           </div>
         </div>
-
+        <div className={styles.cv}>
+          <p>Download CV</p>
+        </div>
     </section>
   );
 }
