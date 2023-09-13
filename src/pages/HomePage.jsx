@@ -25,6 +25,7 @@ function HomePage() {
             < IoLogoJavascript size={80} color='white'/>
             < FaDocker size={80} color='white'/>
             < BiLogoKubernetes size={80} color='white'/>
+            
           </div>
         </div>
 

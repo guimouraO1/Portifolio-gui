@@ -11,7 +11,7 @@
 }
 
 .imagem{
-
+  
     width: 300px;
     border-radius: 14px;
     
@@ -25,6 +25,7 @@
 }
 
 .textMain h1{
+    
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size: 40px;
@@ -37,6 +38,8 @@
 }
 
 .linguagens h1{
+    text-align: center;
+
     font-size: 40px;
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -44,7 +47,8 @@
 }
 
 .linha {
-    width: 300px;
+    align-items: center;
+    width: 320px;
     border: 1px solid #003055;
 
 }
