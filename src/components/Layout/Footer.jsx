@@ -8,10 +8,8 @@ import { FaGithub } from 'react-icons/fa'
 function Footer() {
   return (
     <div className={styles.footerContainer}>
-        
         < FaLinkedin className={styles.icons} size={40} />
         < FaGithub className={styles.icons} size={40} />
-
     </div>
   );
 }
