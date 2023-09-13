@@ -11,7 +11,6 @@ function HomePage() {
           <div className={styles.textMain}>
             <h1>Desenvolvedor Junior</h1>
           </div>
-          
         </div>
 
     </section>
