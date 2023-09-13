@@ -15,7 +15,7 @@ function HomePage() {
           
           <div className={styles.textMain}>
             <h1>Desenvolvedor</h1>
-            <p>Estou ansioso para saber como posso contribuir para sua equipe.</p>
+            <p>Estou ansioso para saber como posso contribuir para sua equipe!</p>
           </div>
           <div className={styles.linguagens}>
             <h1>Tecnologias</h1><br/>
@@ -27,6 +27,7 @@ function HomePage() {
             < BiLogoKubernetes size={60} color='white'/>
           </div>
         </div>
+  
         <div className={styles.cv}>
           <p>Download CV</p>
         </div>
