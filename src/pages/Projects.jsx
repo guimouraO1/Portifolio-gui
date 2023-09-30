@@ -1,10 +1,10 @@
 
 
-function Socials() {
+function Projects() {
   return (
     <div>
         <h1>SOCIALS</h1>
     </div>
   );
 }
-export default Socials
+export default Projects
