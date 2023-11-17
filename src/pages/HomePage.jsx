@@ -7,7 +7,6 @@ import { FaDocker } from "react-icons/fa";
 import { BiLogoKubernetes } from "react-icons/bi";
 import ExamplePdf from './curriculo-guilherme.pdf'
 
-
 function HomePage() {
   return (
     <section>

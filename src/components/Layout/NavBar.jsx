@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { AiOutlineMenu } from 'react-icons/ai'
-
+import DarkMode from "../DarkMode";
 
 function NavBar() {
   return (
@@ -12,6 +12,8 @@ function NavBar() {
         <li><Link to='/Sobre' className={styles.navItens}>Sobre</Link></li>
         <li><Link to='/Projetos' className={styles.navItens}>Projetos</Link></li>
         <li><Link to='/Contato' className={styles.navItens}>Contato</Link></li>
+        <DarkMode />
+        
       </ul>
         
         

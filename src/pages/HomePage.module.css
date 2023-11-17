@@ -8,6 +8,7 @@
     background-color: rgba(240, 248, 255, 0.116);
     border-radius: 8px;
     overflow: hidden;
+    min-height: 400px;
 }
 
 .imagem{
