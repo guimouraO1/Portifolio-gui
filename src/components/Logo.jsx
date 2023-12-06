@@ -7,7 +7,7 @@ function Logo(){
         margin: '120px'
     }
 
-    const userPic = <div><img style={styles} src={gui} alt="guilherme" /></div>
+    const userPic = <div className='userPic'><img style={styles} src={gui} alt="guilherme" /></div>
     return userPic
 }
 

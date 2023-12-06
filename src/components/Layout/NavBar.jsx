@@ -12,11 +12,7 @@ function NavBar() {
         <li><Link to='/Sobre' className={styles.navItens}>Sobre</Link></li>
         <li><Link to='/Projetos' className={styles.navItens}>Projetos</Link></li>
         <li><Link to='/Contato' className={styles.navItens}>Contato</Link></li>
-
-        
       </ul>
-        
-        
         <div className={styles.menuNav}>
           <AiOutlineMenu 
             color="white" 
